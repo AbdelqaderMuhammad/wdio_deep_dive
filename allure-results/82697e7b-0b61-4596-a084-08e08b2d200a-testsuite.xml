@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633448574102' stop='1633448576962'>
+    <name>wait for display</name>
+    <title>wait for display</title>
+    <test-cases>
+        <test-case start='1633448574103' status='broken' stop='1633448576961'>
+            <name>should scroll into view</name>
+            <title>should scroll into view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633448574106' status='passed' stop='1633448576509'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='03c81cb4-ec2a-4abd-b727-c0f5979d1b53-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633448576512' status='passed' stop='1633448576772'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='14c0dcc9-fc76-4b23-b5d0-b264edc74de3-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633448576774' status='passed' stop='1633448576812'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7c7b8633-bd30-40ff-b5c2-79960e1637e8-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='05983abe-1fc0-4479-9117-07d8b519e8ce-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633448576821' status='passed' stop='1633448576834'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='e96bb4d4-115f-4af5-a8b3-45d919f98bed-attachment.json' type='application/json' size='302'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633448576836' status='passed' stop='1633448576959'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1500b77f-f4b1-4177-8aad-a628158d597e-attachment.png' type='image/png' size='47131'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>assert is not defined</message>
+                <stack-trace>ReferenceError: assert is not defined
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\waitForDisplay.js:15:9)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

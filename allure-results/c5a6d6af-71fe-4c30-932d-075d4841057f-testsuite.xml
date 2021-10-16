@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633348353642' stop='1633348356768'>
+    <name>drop down menu</name>
+    <title>drop down menu</title>
+    <test-cases>
+        <test-case start='1633348353642' status='broken' stop='1633348356767'>
+            <name>select first option</name>
+            <title>select first option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633348353646' status='passed' stop='1633348356553'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='07390266-5c62-4ebd-b6f0-172930ab0863-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633348356555' status='passed' stop='1633348356765'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='98178b5b-e7ac-47be-b937-7574d43acf8c-attachment.png' type='image/png' size='63005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>dropdown is not defined</message>
+                <stack-trace>ReferenceError: dropdown is not defined
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\dropDown.js:5:50)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

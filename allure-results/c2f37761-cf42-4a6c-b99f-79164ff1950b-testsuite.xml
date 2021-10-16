@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633448327199' stop='1633448329896'>
+    <name>wait for display</name>
+    <title>wait for display</title>
+    <test-cases>
+        <test-case start='1633448327200' status='broken' stop='1633448329895'>
+            <name>scroll to the footer of the page</name>
+            <title>scroll to the footer of the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633448327204' status='passed' stop='1633448329424'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='69aa8ffa-7110-4521-812d-ecb067a84b8a-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633448329425' status='passed' stop='1633448329757'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='95e08143-2130-4d5a-95b5-0079e5f5def0-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633448329758' status='passed' stop='1633448329893'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8b6bde0e-2ab0-466d-ab6b-74229890eb27-attachment.png' type='image/png' size='63005'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>internetPage is not defined</message>
+                <stack-trace>ReferenceError: internetPage is not defined
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\waitForDisplay.js:4:9)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633448329895' status='pending' stop='1633448329895'>
+            <name>should scroll into view</name>
+            <title>should scroll into view</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

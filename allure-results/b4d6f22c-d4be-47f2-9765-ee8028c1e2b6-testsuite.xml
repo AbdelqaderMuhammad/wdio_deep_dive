@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633449926969' stop='1633449931488'>
+    <name>wait for display</name>
+    <title>wait for display</title>
+    <test-cases>
+        <test-case start='1633449926969' status='passed' stop='1633449931485'>
+            <name>scroll to the footer of the page</name>
+            <title>scroll to the footer of the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633449926973' status='passed' stop='1633449931162'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4a747d5f-6d2a-4886-9750-5761bd96a65b-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633449931163' status='passed' stop='1633449931425'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e6e8393a-e860-4fa7-ba53-d8a6307a1b18-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633449931427' status='passed' stop='1633449931447'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5000ee27-f332-4c40-9660-c530a2cec120-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='a9f70528-dfc5-4236-bb2c-baa69ec9c54c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633449931458' status='passed' stop='1633449931484'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='51505835-5f5b-411e-97c4-eb50d7d41b3d-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='f9ae98d7-f4a2-49d4-be40-ccda81a6bba9-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633449931487' status='pending' stop='1633449931487'>
+            <name>should scroll into view</name>
+            <title>should scroll into view</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

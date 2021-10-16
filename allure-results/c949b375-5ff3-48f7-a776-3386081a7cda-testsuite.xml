@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633190057544' stop='1633190079521'>
+    <name>Drag and drop feature</name>
+    <title>Drag and drop feature</title>
+    <test-cases>
+        <test-case start='1633190057544' status='broken' stop='1633190079520'>
+            <name>drag a into b</name>
+            <title>drag a into b</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633190057549' status='passed' stop='1633190060189'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ceb2f649-b0f4-42e2-8a82-ef43a1e238a3-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633190060190' status='passed' stop='1633190060444'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='803b36cb-f83e-440a-93a2-66129a7b25f3-attachment.json' type='application/json' size='62'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633190060446' status='passed' stop='1633190060469'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aa1dfe00-8c7d-4ce2-9605-6fd7514e227f-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='a6dc6884-eaac-43b5-9ff5-c3adb7b058f8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633190060479' status='passed' stop='1633190060499'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='97bcacc3-912a-41c8-bee5-cdf48f2f33eb-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='4313f352-ba9b-4aee-a2ac-dbf33a3397b0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633190060504' status='passed' stop='1633190079399'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='7a4139e3-239c-482b-8672-334c996058d3-attachment.json' type='application/json' size='872'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633190079399' status='passed' stop='1633190079408'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633190079410' status='passed' stop='1633190079519'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1c042d1d-8613-41c6-ba38-b1ec2e13c2b3-attachment.png' type='image/png' size='21666'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>B is not defined</message>
+                <stack-trace>ReferenceError: B is not defined
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\dragAndDrop.js:8:21)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

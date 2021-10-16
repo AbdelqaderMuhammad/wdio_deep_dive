@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633189742569' stop='1633189749525'>
+    <name>Drag and drop feature</name>
+    <title>Drag and drop feature</title>
+    <test-cases>
+        <test-case start='1633189742570' status='passed' stop='1633189749524'>
+            <name>drag a into b</name>
+            <title>drag a into b</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633189742574' status='passed' stop='1633189744998'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a52f2320-961c-4459-a75a-6f36b1377bde-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633189744999' status='passed' stop='1633189745264'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3e941904-bbd0-41bd-9d52-b52ca3fd294a-attachment.json' type='application/json' size='62'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633189745266' status='passed' stop='1633189745287'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='66d0c415-7ccc-4724-a65b-1e38add8806f-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='d8434f4c-b437-47fa-b4e9-3af341312928-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633189745296' status='passed' stop='1633189745313'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b000f32b-441d-49a4-bd1f-76be376be72c-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='7659eedc-837c-4885-8609-6bec3177b74d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633189745319' status='passed' stop='1633189749516'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='5ec4c364-aec1-4741-9471-b9864cc81708-attachment.json' type='application/json' size='872'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633189749517' status='passed' stop='1633189749523'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

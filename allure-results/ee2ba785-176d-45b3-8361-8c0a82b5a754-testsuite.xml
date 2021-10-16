@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632763110156' stop='1632763112962'>
+    <name>clicking on an element</name>
+    <title>clicking on an element</title>
+    <test-cases>
+        <test-case start='1632763110156' status='broken' stop='1632763112961'>
+            <name>check boxes</name>
+            <title>check boxes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632763110160' status='passed' stop='1632763112455'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ca2ee25f-2107-465a-b26d-b0eb9794b0a9-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632763112457' status='passed' stop='1632763112490'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4c8e493c-a67d-480f-8b67-7768feb74a7e-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='80082988-de06-404a-ab5f-b70c1deb1bff-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632763112502' status='passed' stop='1632763112796'>
+                    <name>POST /session/:sessionId/element/8b253988-1027-4c66-8388-2cbe32ca71b5/click</name>
+                    <title>POST /session/:sessionId/element/8b253988-1027-4c66-8388-2cbe32ca71b5/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632763112799' status='passed' stop='1632763112960'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='685c41a8-c43b-4d61-ade0-f3db3ee9bf50-attachment.png' type='image/png' size='23479'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.checkbox is not a function</message>
+                <stack-trace>TypeError: browser.checkbox is not a function
+                    at Internet.checkBoxBy (D:\Work\Study\wdio\tau course\test\pages\internet.page.js:26:24)
+                    at Internet.clickOnCheckBox (D:\Work\Study\wdio\tau course\test\pages\internet.page.js:29:14)
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\element.actions.js:15:22)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

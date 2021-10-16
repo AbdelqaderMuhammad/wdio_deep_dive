@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633715887900' stop='1633715890742'>
+    <name>suite for debugging command</name>
+    <title>suite for debugging command</title>
+    <test-cases>
+        <test-case start='1633715887901' status='broken' stop='1633715890741'>
+            <name>try the debug command</name>
+            <title>try the debug command</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1633715887905' status='passed' stop='1633715890149'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dff3455a-6514-46c7-96fb-f290bb1e0cec-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633715890150' status='passed' stop='1633715890620'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9646a611-1a8f-4c82-98f3-ac877b3ac785-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633715890621' status='passed' stop='1633715890739'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='34332de6-b562-4ddb-8c70-24826e93c62c-attachment.png' type='image/png' size='53085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>loginDatata is not defined</message>
+                <stack-trace>ReferenceError: loginDatata is not defined
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\debug.js:9:33)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

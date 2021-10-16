@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633350951929' stop='1633350959014'>
+    <name>suite for JS alerts</name>
+    <title>suite for JS alerts</title>
+    <test-cases>
+        <test-case start='1633350951929' status='passed' stop='1633350954448'>
+            <name>texted alert</name>
+            <title>texted alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633350951933' status='passed' stop='1633350954097'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5ff38052-aea8-4d87-b5eb-1069f7b2986e-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633350954099' status='passed' stop='1633350954360'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='850c0eb2-7563-40bb-b665-f6cfb4c60b1f-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633350954362' status='passed' stop='1633350954381'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e31cc3b7-7787-4213-9ab1-25a6122d7d7a-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='8ec5caec-fe7d-465f-bb7c-d71bab1b68aa-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633350954391' status='passed' stop='1633350954442'>
+                    <name>POST /session/:sessionId/element/75937831-a8b3-4f9c-8136-adcd99fb6425/click</name>
+                    <title>POST /session/:sessionId/element/75937831-a8b3-4f9c-8136-adcd99fb6425/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633350954442' status='passed' stop='1633350954446'>
+                    <name>GET /session/:sessionId/alert/text</name>
+                    <title>GET /session/:sessionId/alert/text</title>
+                    <attachments>
+                        <attachment title='Response' source='2bb7c3a4-e71b-49da-a061-52625512c30d-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633350954448' status='passed' stop='1633350959013'>
+            <name>confirmed alert</name>
+            <title>confirmed alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633350954449' status='passed' stop='1633350954692'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='73edd6d9-9d4d-4849-90c4-93ccf540ef38-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633350954693' status='passed' stop='1633350954906'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='307e0bbb-ea75-45a8-923d-4e34c009b872-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633350954907' status='passed' stop='1633350954926'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='159f1295-dcbb-48ba-b105-dd7ae0cead96-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='522fc4d3-5ef2-44d4-b95b-0c89313b755f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633350954931' status='passed' stop='1633350954978'>
+                    <name>POST /session/:sessionId/element/0cfcb9db-f7b0-416f-9e81-81b5c36e8090/click</name>
+                    <title>POST /session/:sessionId/element/0cfcb9db-f7b0-416f-9e81-81b5c36e8090/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633350956991' status='passed' stop='1633350956999'>
+                    <name>POST /session/:sessionId/alert/accept</name>
+                    <title>POST /session/:sessionId/alert/accept</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

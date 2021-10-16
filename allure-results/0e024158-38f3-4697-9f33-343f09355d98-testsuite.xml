@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632753348247' stop='1632753351359'>
+    <name>clicking on an element</name>
+    <title>clicking on an element</title>
+    <test-cases>
+        <test-case start='1632753348248' status='failed' stop='1632753351358'>
+            <name>click on the first element</name>
+            <title>click on the first element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632753348300' status='passed' stop='1632753350875'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='659f7684-714f-4195-8904-f18a24febe23-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632753350877' status='passed' stop='1632753350908'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='12e45cfd-9dac-43e3-9f65-6a20ff421632-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='82409b52-21f4-4252-a6d0-85507de905d6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632753350920' status='passed' stop='1632753351228'>
+                    <name>POST /session/:sessionId/element/7deef0c7-1f83-47b6-838d-51d5d9ae752e/click</name>
+                    <title>POST /session/:sessionId/element/7deef0c7-1f83-47b6-838d-51d5d9ae752e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632753351235' status='passed' stop='1632753351357'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5687b8d3-9ba7-4c1f-9697-a11d32489a8b-attachment.png' type='image/png' size='32145'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "http://the-internet.herokuapp.com/"
+                Received: [Function anonymous]</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "http://the-internet.herokuapp.com/"
+                Received: [Function anonymous]
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\element.actions.js:8:32)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632751746705' stop='1632751749180'>
+    <name>clicking on an element</name>
+    <title>clicking on an element</title>
+    <test-cases>
+        <test-case start='1632751746706' status='failed' stop='1632751749179'>
+            <name>click on the first element</name>
+            <title>click on the first element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632751746710' status='passed' stop='1632751748722'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d6f9febd-7092-4a81-a80f-b93fb42e1ca9-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632751748723' status='passed' stop='1632751748752'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='376d50dd-7527-4997-a07d-666e93a681e4-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='852a6189-9abf-47e0-89a6-e24e37e2c582-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632751748762' status='passed' stop='1632751749061'>
+                    <name>POST /session/:sessionId/element/501f1c64-e133-4c4c-afdf-1d1516258c93/click</name>
+                    <title>POST /session/:sessionId/element/501f1c64-e133-4c4c-afdf-1d1516258c93/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632751749061' status='passed' stop='1632751749071'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='c2ad06b0-0834-4caa-b13b-0405021b3fbf-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632751749074' status='passed' stop='1632751749177'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='18b05b45-0570-4746-980d-b65cd519ab3b-attachment.png' type='image/png' size='32145'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(...).equals is not a function</message>
+                <stack-trace>TypeError: expect(...).equals is not a function
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\element.actions.js:8:34)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

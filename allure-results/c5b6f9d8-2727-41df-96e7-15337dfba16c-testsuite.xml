@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633349722791' stop='1633349725278'>
+    <name>suite for JS alerts</name>
+    <title>suite for JS alerts</title>
+    <test-cases>
+        <test-case start='1633349722792' status='broken' stop='1633349725277'>
+            <name>texted alert</name>
+            <title>texted alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633349722795' status='passed' stop='1633349724874'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6909de68-d0a6-4773-82c8-cc07fa9409ce-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633349724875' status='passed' stop='1633349725125'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9aa5cddd-4023-4666-abd1-102e506bab07-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1633349725126' status='passed' stop='1633349725276'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b16472a0-9085-422f-a2f2-054f015a6d28-attachment.png' type='image/png' size='32097'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>index is not defined</message>
+                <stack-trace>ReferenceError: index is not defined
+                    at JSAlerts.JSAlertButton (D:\Work\Study\wdio\tau course\test\pages\JSAlerts.page.js:3:51)
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\JSAlerts.js:7:22)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

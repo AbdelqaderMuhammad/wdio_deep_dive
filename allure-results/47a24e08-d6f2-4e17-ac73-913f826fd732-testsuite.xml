@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632947769691' stop='1632947773701'>
+    <name>this is a tutorial for keyboards and mouse actions</name>
+    <title>this is a tutorial for keyboards and mouse actions</title>
+    <test-cases>
+        <test-case start='1632947769692' status='broken' stop='1632947773700'>
+            <name>move to function</name>
+            <title>move to function</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1632947769696' status='passed' stop='1632947772982'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4983e53e-c692-4b1c-9d52-3d7eb53830c1-attachment.json' type='application/json' size='49'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632947772983' status='passed' stop='1632947773365'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9e139678-6577-4fd5-985e-330a7a9ce74a-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632947773366' status='broken' stop='1632947773700'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='096c1779-155b-468e-9c3a-12b0baec792f-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps>
+                        <step start='1632947773561' status='passed' stop='1632947773699'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='6494fca5-98fd-46ec-a0e6-aee967e7bbbb-attachment.png' type='image/png' size='27432'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //div[@class='figure']/img)[2] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class='figure']/img)[2]' is not a valid XPath expression.
+                  (Session info: chrome=94.0.4606.61)</message>
+                <stack-trace>Backtrace:
+                	Ordinal0 [0x00CBA2D3+2663123]
+                	Ordinal0 [0x00C4A491+2204817]
+                	Ordinal0 [0x00B32118+1057048]
+                	Ordinal0 [0x00B34844+1067076]
+                	Ordinal0 [0x00B3470E+1066766]
+                	Ordinal0 [0x00B34970+1067376]
+                	Ordinal0 [0x00B5C7D8+1230808]
+                	Ordinal0 [0x00B86A02+1403394]
+                	Ordinal0 [0x00B75A0A+1333770]
+                	Ordinal0 [0x00B84D8F+1396111]
+                	Ordinal0 [0x00B7589B+1333403]
+                	Ordinal0 [0x00B51F74+1187700]
+                	Ordinal0 [0x00B52DC9+1191369]
+                	GetHandleVerifier [0x00E530D6+1610054]
+                	GetHandleVerifier [0x00EFB53B+2299307]
+                	GetHandleVerifier [0x00D48DA9+519705]
+                	GetHandleVerifier [0x00D47759+513993]
+                	Ordinal0 [0x00C5112D+2232621]
+                	Ordinal0 [0x00C555F8+2250232]
+                	Ordinal0 [0x00C55732+2250546]
+                	Ordinal0 [0x00C5E591+2286993]
+                	BaseThreadInitThunk [0x750EFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77057A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77057A6E+238]
+                    at Browser.runCommandWithHooks (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Browser.&lt;anonymous> (D:\Work\Study\wdio\tau course\node_modules\@wdio\utils\build\shim.js:270:24)
+                    at global.$ (D:\Work\Study\wdio\tau course\node_modules\@wdio\runner\build\index.js:193:42)
+                    at HoverPage.getFigureIMG (D:\Work\Study\wdio\tau course\test\pages\hover.page.js:3:34)
+                    at HoverPage.hoverToFigure (D:\Work\Study\wdio\tau course\test\pages\hover.page.js:8:14)
+                    at Context.&lt;anonymous> (D:\Work\Study\wdio\tau course\test\specs\actions.js:6:19)
+                    at Context.executeSync (D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\Work\Study\wdio\tau course\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
